@@ -46,20 +46,9 @@
 
 
 <body>
-<div class="music-box">
-    <button onclick="playMusic()">▶ Play Musik</button>
-
-    <audio id="musik">
-        <source src="audio/lagu1.mp4" type="audio/mpeg">
-    </audio>
+<audio autoplay loop>
+    <source src="audio/lagu1.mp4" type="audio/mpeg"> </audio>
 </div>
-
-<script>
-function playMusic() {
-    document.getElementById("musik").play();
-}
-</script>
-    <!-- 
       Navigation Section
       - Menggunakan sistem grid untuk layout
       - Includes logo dan menu navigasi
